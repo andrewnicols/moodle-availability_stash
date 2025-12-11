@@ -1,0 +1,16 @@
+{
+    "name": "abgreeve/moodle-availability_stash",
+    "type": "moodle-availability",
+    "suggests": {
+        "abgreeve/moodle-block_stash": "@dev",
+        "abgreeve/moodle-filter_stash": "@dev"
+    },
+    "require": {
+      "moodle/moodle": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
